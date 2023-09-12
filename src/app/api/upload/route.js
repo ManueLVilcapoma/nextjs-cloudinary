@@ -7,9 +7,9 @@ import {v2 as cloudinary} from 'cloudinary';
 
 //Se debe hacer en variables de entorno cuando esta en produccion
 cloudinary.config({ 
-  cloud_name: 'dtxxjaury', 
-  api_key: '633798162672871', 
-  api_secret: 'tar-hHD5jZEMm18j0K1MgWbh5co' 
+  cloud_name: '', 
+  api_key: '', 
+  api_secret: '' 
 });
 export async function POST(request){
     const data=await request.formData();
